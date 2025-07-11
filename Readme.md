@@ -34,9 +34,9 @@ npm install
 npm start
 ```
 
-## .Net Core ()
+## .Net Core (C#)
 
-Install .Net 8 first. Download link: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+Install .Net 8 first. Download SDK from: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 
 ```
 cd backend/csharp
