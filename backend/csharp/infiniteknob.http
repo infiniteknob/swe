@@ -1,0 +1,6 @@
+@infiniteknob_HostAddress = http://localhost:3500
+
+GET {{infiniteknob_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
