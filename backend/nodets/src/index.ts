@@ -1,6 +1,8 @@
 import express, { Request, Response } from "express";
+import cors from "cors";
 
 const app = express();
+app.use(cors({ origin: "*" }));
 const PORT = process.env.PORT || 3500;
 
 // Middleware to parse JSON bodies
