@@ -42,3 +42,20 @@ Install .Net 8 first. Download SDK from: https://dotnet.microsoft.com/en-us/down
 cd backend/csharp
 dotnet run
 ```
+
+## Python Fast API
+
+```
+cd backend/pythonfastapi
+```
+
+- On macOS/Linux: source venv/bin/activate
+- On Windows: venv\Scripts\activate
+
+```
+pip install -r requirements.txt
+
+uvicorn main:app --reload
+
+deactivate
+```

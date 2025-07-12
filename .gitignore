@@ -140,3 +140,4 @@ vite.config.ts.timestamp-*
 
 backend/csharp/bin/*
 backend/csharp/obj/*
+backend/*/__pycache__/*
