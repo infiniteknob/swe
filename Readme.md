@@ -55,7 +55,11 @@ cd backend/pythonfastapi
 ```
 pip install -r requirements.txt
 
-uvicorn main:app --reload
+uvicorn main:app --port 3500 --reload
+```
 
+After running you can deactivate venv via
+
+```
 deactivate
 ```
